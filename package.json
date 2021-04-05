@@ -1,0 +1,21 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "description": "realtime chat with room",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm server",
+    "dev": "nodemon serve"
+  },
+  "keywords": [
+    "realtime",
+    "chat"
+  ],
+  "author": "HieuLe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.1"
+  }
+}
