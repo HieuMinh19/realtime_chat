@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon serve"
+    "dev": "npx nodemon serve"
   },
   "keywords": [
     "realtime",
@@ -14,8 +14,10 @@
   "author": "HieuLe",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
     "socket.io": "^4.0.1"
   }
 }
